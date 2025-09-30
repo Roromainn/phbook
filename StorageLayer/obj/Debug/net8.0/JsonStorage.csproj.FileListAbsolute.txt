@@ -1,0 +1,16 @@
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\bin\Debug\net8.0\JsonStorage.deps.json
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\bin\Debug\net8.0\JsonStorage.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\bin\Debug\net8.0\JsonStorage.pdb
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\bin\Debug\net8.0\LogicLayer.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\bin\Debug\net8.0\LogicLayer.pdb
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.csproj.AssemblyReference.cache
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.AssemblyInfoInputs.cache
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.AssemblyInfo.cs
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.csproj.CoreCompileInputs.cache
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.sourcelink.json
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStor.FDFBEC6F.Up2Date
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\refint\JsonStorage.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\JsonStorage.pdb
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\StorageLayer\obj\Debug\net8.0\ref\JsonStorage.dll

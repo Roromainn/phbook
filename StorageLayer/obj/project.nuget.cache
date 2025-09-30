@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h/TqI2XQzis=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\romai\\Desktop\\2025-R304-PhoneBook--Romain-Souveton\\StorageLayer\\JsonStorage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\romai\\.nuget\\packages\\system.io.pipelines\\9.0.9\\system.io.pipelines.9.0.9.nupkg.sha512",
+    "C:\\Users\\romai\\.nuget\\packages\\system.text.encodings.web\\9.0.9\\system.text.encodings.web.9.0.9.nupkg.sha512",
+    "C:\\Users\\romai\\.nuget\\packages\\system.text.json\\9.0.9\\system.text.json.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

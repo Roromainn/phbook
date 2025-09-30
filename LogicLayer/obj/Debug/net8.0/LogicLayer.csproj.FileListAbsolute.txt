@@ -1,0 +1,12 @@
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\bin\Debug\net8.0\LogicLayer.deps.json
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\bin\Debug\net8.0\LogicLayer.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\bin\Debug\net8.0\LogicLayer.pdb
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.AssemblyInfoInputs.cache
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.AssemblyInfo.cs
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.sourcelink.json
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\refint\LogicLayer.dll
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\LogicLayer.pdb
+C:\Users\romai\Desktop\2025-R304-PhoneBook--Romain-Souveton\LogicLayer\obj\Debug\net8.0\ref\LogicLayer.dll

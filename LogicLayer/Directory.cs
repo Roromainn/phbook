@@ -45,9 +45,9 @@ namespace LogicLayer
         /// List all the contacts
         /// </summary>
         /// <returns>An simple array containing contacts</returns>
-        public IPerson[]? ListContacts()
+        public IPerson[] ListContacts()
         {
-            return contacts?.ToArray();
+            return contacts.ToArray();
         }
 
         /// <summary>
@@ -66,6 +66,12 @@ namespace LogicLayer
                 }
             }
             return res.ToArray();
+        }
+
+        [OnDeserializing]
+        private void OnDeserializing(StreamingContext context)
+        {
+            contacts = new List<IPerson>();
         }
         #endregion
 

@@ -28,36 +28,18 @@ namespace JsonStorage
             {
                 using (FileStream fs = new FileStream(file, FileMode.Open))
                 {
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(LogicLayer.Directory));
+                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(LogicLayer.Directory), new Type[] { typeof(Person) });
                     this.directory = (LogicLayer.Directory)serializer.ReadObject(fs);
-                    directory.NewContact(new Person("harris", "steve", GenderType.MALE));
-                    directory.NewContact(new Person("dickinson", "bruce", GenderType.MALE));
-                    directory.NewContact(new Person("murray", "dave", GenderType.MALE));
-                    directory.NewContact(new Person("smith", "adrian", GenderType.MALE));
-                    directory.NewContact(new Person("gers", "jannick", GenderType.MALE));
-                    directory.NewContact(new Person("mc brain", "nicko", GenderType.MALE));
                 }
             }
             else
             {
                 this.directory = new LogicLayer.Directory();
-                directory.NewContact(new Person("harris", "steve", GenderType.MALE));
-                directory.NewContact(new Person("dickinson", "bruce", GenderType.MALE));
-                directory.NewContact(new Person("murray", "dave", GenderType.MALE));
-                directory.NewContact(new Person("smith", "adrian", GenderType.MALE));
-                directory.NewContact(new Person("gers", "jannick", GenderType.MALE));
-                directory.NewContact(new Person("mc brain", "nicko", GenderType.MALE));
                 Save();
             }
             if (this.directory == null)
             {
                 this.directory = new Directory();
-                directory.NewContact(new Person("harris", "steve", GenderType.MALE));
-                directory.NewContact(new Person("dickinson", "bruce", GenderType.MALE));
-                directory.NewContact(new Person("murray", "dave", GenderType.MALE));
-                directory.NewContact(new Person("smith", "adrian", GenderType.MALE));
-                directory.NewContact(new Person("gers", "jannick", GenderType.MALE));
-                directory.NewContact(new Person("mc brain", "nicko", GenderType.MALE));
             }
 
 
@@ -70,7 +52,7 @@ namespace JsonStorage
             {
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(LogicLayer.Directory));
+                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(LogicLayer.Directory), new Type[] { typeof(Person) });
                     serializer.WriteObject(ms, directory);
 
                     string jsonString = Encoding.UTF8.GetString(ms.ToArray());

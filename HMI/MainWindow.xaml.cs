@@ -75,7 +75,7 @@ namespace HMI
             PersonWindow fen = new PersonWindow(phmi);
             if (fen.ShowDialog() == true)
             {
-                directory.NewContact(phmi);
+                directory.NewContact(p);
                 PrintList();
                 storage.Update(p);
             }
@@ -87,9 +87,13 @@ namespace HMI
             contacts.Items.Clear();
             try
             {
-                foreach (var p  in this.directory.ListContacts())
+                var list = this.directory.ListContacts();
+                if (!(list == null))
                 {
-                    contacts.Items.Add(new PersonHMI(p));
+                    foreach (var p in list)
+                    {
+                        contacts.Items.Add(new PersonHMI(p));
+                    }
                 }
             }
             catch

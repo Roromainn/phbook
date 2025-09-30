@@ -53,7 +53,7 @@ namespace HMI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HMI;V1.0.0.0;component/personwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HMI;component/personwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PersonWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
